@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build Output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment Variables
+.env
+.env.test
+.env.production
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing / Coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
