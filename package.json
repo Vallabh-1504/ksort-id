@@ -7,6 +7,11 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vallabh-1504/ksort-id.git"
+  },
+  "homepage": "https://github.com/Vallabh-1504/ksort-id#readme",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
@@ -15,6 +20,8 @@
   "keywords": [
     "id",
     "uuid",
+    "nanoid",
+    "snowflake",
     "ksortid",
     "ksort-id",
     "sortable",
@@ -22,7 +29,8 @@
     "unique",
     "random",
     "generator",
-    "typescript"
+    "typescript",
+    "database"
   ],
   "author": "Vallabh",
   "license": "MIT",
